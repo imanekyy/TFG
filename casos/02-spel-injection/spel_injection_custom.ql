@@ -39,8 +39,8 @@ module SpelInjectionConfig implements DataFlow::ConfigSig {
     )
   }
 
-  // BARRIER: no se modela ninguno, porque en el código vulnerable no existe ningún saneo ni
-  // lista blanca antes de evaluar la expresión.
+  // BARRIER: no se modela ninguno, porque en el código vulnerable no existe ningún saneamiento ni
+  // antes de evaluar la expresión.
 }
 
 module SpelFlow = TaintTracking::Global<SpelInjectionConfig>;
