@@ -1,0 +1,29 @@
+# === Artefactos de CodeQL ===
+# Bases de datos generadas con `codeql database create`.
+# Son artefactos derivados y muy pesados; se regeneran localmente.
+databases/
+casos/**/databases/
+*.testproj
+
+# Paquete CodeQL compilado / cache
+.codeql/
+*.dbscheme
+
+# === Código fuente de los proyectos analizados ===
+# Repos de terceros (spring-ai, spring-kafka, spring-cloud-config...).
+# Tienen su propia licencia y su propio .git; solo se documenta el tag analizado.
+repos/
+
+# === Sistema operativo / editor ===
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
+.vscode/
+!.vscode/extensions.json
+
+# === Java / build (por si se cuela algo al construir) ===
+target/
+build/
+.gradle/
+*.class

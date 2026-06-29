@@ -1,3 +1,8 @@
+// Consulta oficial de CodeQL (proyecto github/codeql).
+// Incluida en este repositorio únicamente como referencia para la comparación.
+// Fuente: java/ql/src/Security/CWE/CWE-918/RequestForgery.ql
+// Licencia original: MIT (https://github.com/github/codeql/blob/main/LICENSE.md)
+
 /**
  * @name Server-side request forgery
  * @description Making web requests based on unvalidated user-input

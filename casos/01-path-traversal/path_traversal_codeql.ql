@@ -1,3 +1,8 @@
+// Consulta oficial de CodeQL (proyecto github/codeql).
+// Incluida en este repositorio únicamente como referencia para la comparación.
+// Fuente: java/ql/src/Security/CWE/CWE-022/TaintedPath.ql
+// Licencia original: MIT (https://github.com/github/codeql/blob/main/LICENSE.md)
+
 /**
  * @name Query Oficial CodeQL - Uncontrolled data used in path expression
  * @description Accessing paths influenced by users can allow an attacker to access unexpected resources.

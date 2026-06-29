@@ -1,3 +1,8 @@
+// Consulta oficial de CodeQL (proyecto github/codeql).
+// Incluida en este repositorio únicamente como referencia para la comparación.
+// Fuente: java/ql/src/Security/CWE/CWE-094/SpelInjection.ql
+// Licencia original: MIT (https://github.com/github/codeql/blob/main/LICENSE.md)
+
 /**
  * @name Expression language injection (Spring)
  * @description Evaluation of a user-controlled Spring Expression Language (SpEL) expression

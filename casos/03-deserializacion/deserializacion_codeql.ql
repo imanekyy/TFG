@@ -1,3 +1,8 @@
+// Consulta oficial de CodeQL (proyecto github/codeql).
+// Incluida en este repositorio únicamente como referencia para la comparación.
+// Fuente: java/ql/src/Security/CWE/CWE-502/UnsafeDeserialization.ql
+// Licencia original: MIT (https://github.com/github/codeql/blob/main/LICENSE.md)
+
 /**
  * @name Deserialization of user-controlled data
  * @description Deserializing user-controlled data may allow attackers to
